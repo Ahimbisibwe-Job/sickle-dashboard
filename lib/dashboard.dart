@@ -52,7 +52,7 @@ class _MenuState extends State<Menu> {
             width: 1,
           ),
         ),
-        color: Color(0xFF171821),
+        color: Color(0xFF940F0F),
       ),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
@@ -101,17 +101,17 @@ class _MenuState extends State<Menu> {
                           ),
                           child: SvgPicture.asset(
                             menu[i].icon,
-                            color: selected == i ? Colors.black : Colors.grey,
+                            color: selected == i ? Colors.white : Colors.black,
                           ),
                         ),
                         Text(
                           menu[i].title,
                           style: TextStyle(
                             fontSize: 16,
-                            color: selected == i ? Colors.black : Colors.grey,
+                            color: selected == i ? Colors.white : Colors.black,
                             fontWeight: selected == i
-                                ? FontWeight.w600
-                                : FontWeight.normal,
+                                ? FontWeight.bold
+                                : FontWeight.bold,
                           ),
                         ),
                       ],

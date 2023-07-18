@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-const primaryColorCode = 0xFFA9DFD8;
+const primaryColorCode = 0xFF40CAB8;
 
-const cardBackgroundColor = Color(0xFF21222D);
+const cardBackgroundColor = Color(0xFF940F0F);

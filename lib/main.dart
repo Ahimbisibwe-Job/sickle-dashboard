@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dashboard/const.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_dashboard/login_page.dart';
+import 'package:flutter_dashboard/dashboard.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
@@ -37,10 +37,10 @@ class MyApp extends StatelessWidget {
               900: const Color(primaryColorCode).withOpacity(1.0),
             },
           ),
-          scaffoldBackgroundColor: Color.fromARGB(255, 241, 241, 241),
+          scaffoldBackgroundColor: Color.fromARGB(255, 221, 221, 221),
           fontFamily: 'IBMPlexSans',
           brightness: Brightness.dark),
-      home: LoginPage(),
+      home: DashBoard(),
     );
   }
 }
